@@ -10,7 +10,9 @@ issues_url 'https://github.com/mburns/application_nodejs/issues' if respond_to?(
 
 depends 'apache2'
 depends 'application', '~> 3'
+depends 'nginx'
 depends 'nodejs'
 depends 'passenger_apache2'
 
 supports 'ubuntu', '>= 12.04'
+supports 'debian'
